@@ -146,7 +146,7 @@ section{
   border-radius: 10px;
 }
 header{
-  padding-bottom: 25vh;
+  height: 100vh;
 }
 #logoimg{
   width: 355px; 
@@ -238,7 +238,7 @@ li > a{
   top: 45px;
   background: white;
   width: 80%;
-  border: solid blue 3px;
+  border: solid #0159FF 3px;
   border-radius: 5px;
   z-index: 1000;
   display : none;
