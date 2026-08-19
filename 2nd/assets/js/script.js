@@ -12,7 +12,7 @@ function showmenu() {
     menu1.style.display = 'block';
     menuhid.forEach((e)=>
     {
-      e.style.visibility='hiden'
+      e.style.visibility='hidden'
     });
   }
 }
