@@ -55,7 +55,7 @@
 .spread1{display:flex; justify-content:space-around;} 
 .spread2{display:flex; justify-content:space-between;}
 .jcc{justify-content: center;} .jcfs{justify-content: flex-start x;}
-.aic{align-items : center;} .aifs{align: flex-start x;}
+.aic{align-items : center;} .aifs{align: flex-start;}
 /* padding */
 .p0{padding:0 ;}
 /* margin */

@@ -14,5 +14,6 @@ function showmenu() {
     {
       e.style.visibility='hidden'
     });
+    menu1.className="borred"
   }
 }
