@@ -138,9 +138,18 @@ body{
   font-family: 'Times New Roman', Times, Serif;
   background: url(../images/sparkbg.png);
 }
+section{
+  margin: 20px auto;
+  padding-top: 100px;
+  background-color: white;
+  border-radius: 10px;
+}
+header{
+  padding-bottom: 25vh;
+}
 #logoimg{
-  width: 305px; 
-  height: 305px;
+  width: 355px; 
+  height: 355px;
 }
 h1, h2, h3, h4{
   color : dodgerblue;
@@ -203,7 +212,7 @@ li > a{
   display: flex;
   align-items: center;
   overflow: visible;
-  z-index: 1;
+  z-index: 1000;
 }
 .t3 {
   display: flex;
