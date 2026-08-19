@@ -1,5 +1,6 @@
 *{
   box-sizing : border-box;
+  
 }
       /*Base*/
 .tab2{
@@ -15,8 +16,18 @@
 .wmc{width: max-content;}
 .wfc{width : fit-content;}
 .w100p{width : 100%;} .w100vw{width: 100vw;}
+/* height  */
+.h20{height:20px;} 
+.hmc{height: max-content;}
+.hfc{height : fit-content;}
+.h100p{height : 100%;} .h100vw{height : 100vw;}
 /*----- font-----*/
 /* size */
+.fs0\.5{font-size :0.5rem;}
+.fs0\.75{font-size: 0.75rem;}
+.fs0\.8{font-size: 0.8rem;}
+.fs0\.85{font-size: 0.85rem;}
+.fs0\.9{font-size: 0.9rem;}
 .fs0\.95{font-size : 0.95rem;}
 .fs1{font-size : 1rem;}
 .fs1\.2{font-size : 1.2rem;}
@@ -43,6 +54,10 @@
 .flexc{display:flex; flex-direction: column;} 
 .spread1{display:flex; justify-content:space-around;} 
 .spread2{display:flex; justify-content:space-between;}
+.jcc{justify-content: center;} .jcfs{justify-content: flex-start x;}
+.aic{align-items : center;} .aifs{align: flex-start x;}
+/* padding */
+.p0{padding:0 ;}
 /* margin */
 .mau{margin:auto;} .m0a{margin:0 auto;} .ma0{margin: auto 0;}
 .m5{margin: 5px;} .my5{margin:5px auto;} .mx5{margin: auto 5px;}
@@ -81,6 +96,7 @@
 /* border */
 .borblack{border:solid 2px black;} 
 .borblue{border:solid 1px blue;}
+.bordb{border:solid 1px dodgerblue;}
 .borno{border: none;}
 /* color */
 .coldb{
@@ -122,8 +138,8 @@ body{
   background: url(../images/sparkbg.png);
 }
 #logoimg{
-  width: 205px; 
-  height: 205px;
+  width: 70px; 
+  height: 70px;
 }
 h1, h2, h3, h4{
   color : dodgerblue;
@@ -166,4 +182,59 @@ li > a{
 }
 .btn:active{
   transform: scale(0.95);
+}
+.page{
+  margin-top: 250px;
+}
+/* ----- Very specific ----- */
+/* Header */
+.tp {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: white;
+  width: 100%;
+  max-height: 300px;
+  border-bottom: solid dodgerblue 5px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+  z-index: 1;
+}
+.t3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 10px;
+  margin-left :5px;
+  max-height : max-content ;
+}
+.t3 span{
+  display: block;
+  padding: 3px 15px;
+  background: dodgerblue;
+  border-radius: 4px;
+  margin: 2px auto;
+}
+#menu1{
+  position: fixed;
+  left: 5;
+  top: 60px;
+  background: white;
+  width: 80%;
+  border: solid black 3px;
+  z-index: 1000;
+  display : none;
+}
+#menu1 li{
+  margin :0 auto ;
+}
+#menu2 a{
+  padding : 5px;
+  font-size: 0.7rem;
+  margin: auto 3px;
 }
