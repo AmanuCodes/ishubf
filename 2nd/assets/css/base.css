@@ -139,6 +139,7 @@ body{
   background: url(../images/sparkbg.png);
 }
 section{
+  min-height: 100vh;
   margin: 20px auto;
   padding-top: 100px;
   background-color: white;
