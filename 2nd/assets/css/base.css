@@ -142,7 +142,7 @@ section{
   min-height: 100vh;
   margin: 20px auto;
   padding-top: 100px;
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 10px;
 }
 header{
@@ -231,6 +231,10 @@ li > a{
   background: dodgerblue;
   border-radius: 4px;
   margin: 2px auto;
+  transition: 0.05s ease;
+}
+.t3:active{
+  transform: scale(0.95);
 }
 #menu1{
   position: fixed;
@@ -249,7 +253,7 @@ li > a{
 #menu2 a{
   padding : 5px;
   font-size: 0.7rem;
-  margin: auto 3px;
+  margin: 0 3px;
 }
 #menu2 {
   width:100%;
