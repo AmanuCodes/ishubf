@@ -191,15 +191,19 @@
 
 /* padding */
 .p0 {
-  padding: 0;
+  padding: 0px;
 }
 
 .p2 {
-  padding: 2;
+  padding: 2px;
+}
+
+.p4{
+  padding: 4px;
 }
 
 .p6 {
-  padding: 6;
+  padding: 6px;
 }
 
 /* margin */
@@ -490,6 +494,9 @@ th,td{
 .borno th, .borno td{
   border: none;
   padding: 2px;
+}
+.tp4 th, .tp4 td{
+  padding: 4px !important;
 }
 
 .btn {
