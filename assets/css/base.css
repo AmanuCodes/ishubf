@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 1024px) {
   :root {
-    --unit: 5px;
+    --unit: 1.8px;
   }
 }
 
