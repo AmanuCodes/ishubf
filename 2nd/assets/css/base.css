@@ -194,6 +194,14 @@
   padding: 0;
 }
 
+.p2 {
+  padding: 2;
+}
+
+.p6 {
+  padding: 6;
+}
+
 /* margin */
 .mau {
   margin: auto;
@@ -390,7 +398,7 @@ body {
 
 section {
   min-height: 100vh;
-  margin: 20px 10px;
+  margin: 20px 15px;
   padding-top: 100px;
   background-color: whitesmoke;
   border-radius: 10px;
@@ -467,6 +475,21 @@ div > a, li > a {
 
 li > a {
   font-size: 1.2rem;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+th,td{
+  border: solid 1px;
+  border-color: inherit;
+  padding: 2px;
+}
+
+.borno th, .borno td{
+  border: none;
+  padding: 2px;
 }
 
 .btn {
