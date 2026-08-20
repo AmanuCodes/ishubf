@@ -1,14 +1,237 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore software products by Sparkling Solutions across Education, Health, and Business sectors.">
+    <title>Sparkling Solutions - Products</title>
+    <link rel="stylesheet" href="../assets/css/base.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-</head>
+  <body class="center w100vw">
+    <header>
+      <div class="tp flexc">
+        <div class="w100p spread2 aic">
+          <nav>
+            <div class="t3" onclick="showmenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+          <h1 class="db m0a fs2 fw9">Sparkling Solutions</h1>
+        </div>
+        <nav id="menu2">
+          <menu class="mau w100p spread1">
+            <li><a class="btn" href="#overview">Overview</a></li>
+            <li><a class="btn" href="#sedu-products">Education</a></li>
+            <li><a class="btn" href="#shealth-products">Health</a></li>
+            <li><a class="btn" href="#sbis-products">Business</a></li>
+            <li><a class="btn" href="#scomp">Compatibility</a></li>
+          </menu>
+        </nav>
+      </div>
 
-<body>
-  
-</body>
+      <nav style="display:none;" id="menu1">
+        <div class="fs2 fw7 colb">Menu</div>
+        <div class="flexr jcc">
+          <menu>
+            <li><a class="btn" href="../index.html">Home</a></li>
+            <li><a class="btn" href="./about.html">About Us</a></li>
+            <li><a class="btn" href="./register.html">Register</a></li>
+            <li><a class="btn" href="./service.html">Services</a></li>
+            <li><a class="btn" href="./privacy.html">Privacy Policy</a></li>
+            <li><a class="btn" href="./terms.html">Terms and conditions</a></li>
+            <li><a class="btn" href="../index.html#scont">Contact us</a></li>
+          </menu>
+        </div>
+      </nav>
 
+      <img style="margin-top: 120px;" class="menuhid my30" id="logoimg" src="../assets/images/spark.png" alt="Sparkling Solutions Logo">
+
+      <h2 class="fs2">Product Catalog</h2>
+      <p class="mx5">High-Performance Software Suites &amp; Digital Solutions</p>
+    </header>
+
+    <hr class="hrdb">
+    <hr class="bg7t">
+    <hr class="hrdb">
+
+    <main>
+      <!-- Overview -->
+      <section id="overview">
+        <h2>Overview</h2>
+        <p>
+          Sparkling Solutions develops modular, reliable digital software built to increase operational efficiency, learning outcomes, and business productivity.
+        </p>
+        <p>
+          <b>Cross-Platform Access:</b> All products feature localized offline storage, fast load times, and responsive user interfaces available via standard desktop web browsers and WebApps for mobile devices.
+        </p>
+      </section>
+
+      <hr class="hrdb">
+      <hr class="bg7t">
+      <hr class="hrdb">
+
+      <!-- Education Suite -->
+      <section id="sedu-products">
+        <h2>Education Suite</h2>
+        <p>Modular software built for institutions, educators, and individual learners.</p>
+
+        <h3>1. Sparkling Study</h3>
+        <p><b>Target Audience:</b> Students &amp; Self-Learners</p>
+        <p><b>Description:</b> An interactive digital study platform offering structured flashcards, automated quiz generators, and progress analytics.</p>
+        <ul class="centli lidi">
+          <li>Offline-first local progress saving</li>
+          <li>Customizable subject track creation</li>
+          <li>Mobile and desktop progress sync</li>
+        </ul>
+
+        <h3>2. Sparkling Class</h3>
+        <p><b>Target Audience:</b> Schools, Teachers &amp; Tutors</p>
+        <p><b>Description:</b> A classroom management tool for lesson tracking, gradebook recording, and assignment distribution.</p>
+        <ul class="centli lidi">
+          <li>Automated student performance summaries</li>
+          <li>Lightweight portal accessible on low-bandwidth networks</li>
+          <li>Direct export to CSV and printable report formats</li>
+        </ul>
+
+        <h3>3. Sparkling Libra</h3>
+        <p><b>Target Audience:</b> Academic Libraries &amp; Resource Centers</p>
+        <p><b>Description:</b> Digital library cataloging software to manage e-books, physical inventory checking, and reading list archiving.</p>
+        <ul class="centli lidi">
+          <li>Fast text search indexing</li>
+          <li>Integrated user loan tracking system</li>
+        </ul>
+      </section>
+
+      <hr class="hrdb">
+      <hr class="bg7t">
+      <hr class="hrdb">
+
+      <!-- Health Suite -->
+      <section id="shealth-products">
+        <h2>Health Suite</h2>
+        <p>Secure digital tools designed for healthcare management and patient interaction.</p>
+
+        <h3>1. Sparkling Med</h3>
+        <p><b>Target Audience:</b> Medical Clinics &amp; Independent Practitioners</p>
+        <p><b>Description:</b> Lightweight health record manager and patient scheduling software engineered for privacy and simple workflow tracking.</p>
+        <ul class="centli lidi">
+          <li>Encrypted local medical history storage</li>
+          <li>Integrated appointment calendar and queue view</li>
+          <li>Cross-platform WebApp interface</li>
+        </ul>
+      </section>
+
+      <hr class="hrdb">
+      <hr class="bg7t">
+      <hr class="hrdb">
+
+      <!-- Business Suite -->
+      <section id="sbis-products">
+        <h2>Business &amp; Productivity Suite</h2>
+        <p>Tools designed to streamline small business accounting, asset management, and operations.</p>
+
+        <h3>1. Sparkling Coin</h3>
+        <p><b>Target Audience:</b> Small Businesses &amp; Freelancers</p>
+        <p><b>Description:</b> Intuitive bookkeeping and transaction tracking software for managing daily expense logs, invoicing, and client payments.</p>
+        <ul class="centli lidi">
+          <li>Instant invoice generation and tracking</li>
+          <li>Automated weekly and monthly revenue summaries</li>
+        </ul>
+
+        <h3>2. Sparkling Econ</h3>
+        <p><b>Target Audience:</b> Enterprise Managers &amp; Operations Teams</p>
+        <p><b>Description:</b> Operational inventory and resource allocation software for monitoring stock levels, supply orders, and vendor databases.</p>
+        <ul class="centli lidi">
+          <li>Real-time stock threshold alerts</li>
+          <li>Multi-user role access controls</li>
+        </ul>
+      </section>
+
+      <hr class="hrdb">
+      <hr class="bg7t">
+      <hr class="hrdb">
+
+      <!-- System Requirements Matrix -->
+      <section id="scomp">
+        <h2>Compatibility</h2>
+        <p>All Sparkling Solutions products are engineered to run smoothly on minimal hardware setups without heavy installation demands.</p>
+
+        <div class="p6 tp4">
+          <table class="borblack">
+            <thead class="bgdblue">
+              <tr>
+                <th>Product Name</th>
+                <th>Supported Platforms</th>
+                <th>Minimum Requirement</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="bgb1"><b>Sparkling Study</b></td>
+                <td>Desktop &amp; Mobile WebApp</td>
+                <td>Modern Web Browser</td>
+              </tr>
+              <tr>
+                <td class="bgb1"><b>Sparkling Class</b></td>
+                <td>Desktop &amp; Mobile WebApp</td>
+                <td>Modern Web Browser</td>
+              </tr>
+              <tr>
+                <td class="bgb1"><b>Sparkling Libra</b></td>
+                <td>Desktop &amp; Mobile WebApp</td>
+                <td>Modern Web Browser</td>
+              </tr>
+              <tr>
+                <td class="bgb1"><b>Sparkling Med</b></td>
+                <td>Desktop &amp; Mobile WebApp</td>
+                <td>Modern Web Browser / SSL</td>
+              </tr>
+              <tr>
+                <td class="bgb1"><b>Sparkling Coin</b></td>
+                <td>Desktop &amp; Mobile WebApp</td>
+                <td>Modern Web Browser</td>
+              </tr>
+              <tr>
+                <td class="bgb1"><b>Sparkling Econ</b></td>
+                <td>Desktop &amp; Mobile WebApp</td>
+                <td>Modern Web Browser</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+        <p>Ready to get started?</p>
+        <p><a href="./register.html">Register Now</a> | <a href="../index.html#spricing">View Pricing</a></p>
+      </section>
+    </main>
+
+    <hr class="hrdb my20">
+    <hr class="bg7t">
+    <hr class="hrdb">
+
+    <!-- Footer -->
+    <footer>
+      <div>
+        <h2>Follow Us</h2>
+        <div class="spread1 my10">
+          <a href="https://github.com/" target="_blank"><img src="../assets/icons/github.png" alt="github icon" width="30"></a>
+          <a href="https://www.facebook.com/" target="_blank"><img src="../assets/icons/facebook.png" alt="facebook icon" width="30"></a>
+          <a href="https://www.linkedin.com/" target="_blank"><img src="../assets/icons/linkedin.png" alt="linkedin icon" width="30"></a>
+          <a href="https://www.youtube.com/" target="_blank"><img src="../assets/icons/youtube.png" alt="youtube icon" width="35"></a>
+        </div>
+      </div>
+      <hr class="my10">
+      <div style="font-family: monospace;">
+        <p>Sparkling Solutions &reg;</p>
+        <p>By Amanuel Nega</p>
+        <p>&copy; 2026</p>
+        <p>All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+  </body>
 </html>
