@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023.1px) {
   :root {
     --unit: 0.1125rem;
   }
@@ -328,9 +328,6 @@ body {
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   min-height: 100vh;
   margin: calc(20 * var(--unit)) calc(15 * var(--unit));
   padding-top: calc(100 * var(--unit));
@@ -347,6 +344,7 @@ header {
 #logoimg {
   width: calc(355 * var(--unit));
   height: calc(355 * var(--unit));
+  margin-bottom: calc(30 * var(--unit));
 }
 
 h1, h2, h3, h4 { color: dodgerblue; }
@@ -490,4 +488,14 @@ th, td {
   border-top: solid dodgerblue calc(2 * var(--unit));
   border-bottom-left-radius: calc(4 * var(--unit));
   border-bottom-right-radius: calc(4 * var(--unit));
+}
+
+
+
+@media screen and (min-width: 1023.1px) {
+  #logoimg{
+    width: calc(300 * var(--unit));
+    height: calc(300 * var(--unit));
+    margin-bottom: calc(20 * var(--unit));
+  }
 }
