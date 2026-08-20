@@ -67,6 +67,11 @@
   display: flex;
   justify-content: space-between;
 }
+.hstrech{
+  display: flex;
+  justify-content: stretch;
+}
+
 .jcc { justify-content: center; }
 .jcfs { justify-content: flex-start; }
 .aic { align-items: center; }
@@ -291,7 +296,7 @@ ul ul, ol ol, ul ol, ol ul {
 
 menu, nav ol {
   list-style-type: none;
-  max-width: max-content;
+  width: max-content;
 }
 
 menu li, nav li {
@@ -339,7 +344,7 @@ th,td{
 }
 
 .btn {
-  display: block;
+  display: inline-block;
   border: solid 1px white;
   border-radius: 20px;
   padding: 13px;
