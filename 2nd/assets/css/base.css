@@ -178,7 +178,7 @@
 }
 
 .jcfs {
-  justify-content: flex-start x;
+  justify-content: flex-start;
 }
 
 .aic {
@@ -197,6 +197,20 @@
 /* margin */
 .mau {
   margin: auto;
+}
+
+.m0{
+  margin: 0;
+}
+
+.my0{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mx0 {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .m0a {
@@ -371,17 +385,20 @@
 body {
   font-family: 'Times New Roman', Times, Serif;
   background: url(../images/sparkbg.png);
+  margin: 0;
 }
 
 section {
   min-height: 100vh;
-  margin: 20px auto;
+  margin: 20px 10px;
   padding-top: 100px;
   background-color: whitesmoke;
   border-radius: 10px;
 }
 
-header {
+header{
+  margin: 0 ;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -392,6 +409,30 @@ header {
 
 h1, h2, h3, h4 {
   color: dodgerblue;
+}
+
+@keyframes hscroll{
+  from{
+    transform: translatex(100%);
+  }
+  50%{
+    transform: translatex(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.aniBox{
+  overflow: hidden;
+}
+
+.hscrolled{
+  display: inline-block;
+  animation-name: hscroll;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .hrdb {
