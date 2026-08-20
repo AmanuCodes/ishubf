@@ -328,6 +328,9 @@ body {
 }
 
 section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   min-height: 100vh;
   margin: calc(20 * var(--unit)) calc(15 * var(--unit));
   padding-top: calc(100 * var(--unit));
