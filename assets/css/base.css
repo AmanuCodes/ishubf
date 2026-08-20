@@ -1,16 +1,16 @@
 :root {
-  --unit: 1px;
+  --unit: 0.0625rem;
 }
 
 @media screen and (min-width: 480px) and (max-width: 1023px) {
   :root {
-    --unit: 1.2px;
+    --unit: 0.075rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   :root {
-    --unit: 1.8px;
+    --unit: 0.1125rem;
   }
 }
 
