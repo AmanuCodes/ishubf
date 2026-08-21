@@ -306,7 +306,7 @@
   }
   
   to {
-    transform: translateX(-100%);
+    transform: translateX(-105%);
   }
 }
 
@@ -492,10 +492,20 @@ th, td {
 
 
 
-@media screen and (min-width: 1023.1px) {
+@media screen and (min-width: 1023.001px) {
   #logoimg{
     width: calc(300 * var(--unit));
     height: calc(300 * var(--unit));
     margin-bottom: calc(20 * var(--unit));
   }
+  @keyframes hscroll {
+    from {
+      transform: translateX(100vw);
+    }
+  
+    to {
+      transform: translateX(-175%);
+    }
+  }
+
 }
