@@ -349,6 +349,16 @@ header {
 
 h1, h2, h3, h4 { color: dodgerblue; }
 
+blockquote{
+  background: dodgerblue;
+  color: white;
+  padding: 5px;
+  border-left: solid 5px springgreen;
+  border-radius: 3px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
 .hrdb {
   background-color: dodgerblue;
   width: 90%;
