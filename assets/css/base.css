@@ -94,7 +94,7 @@
 .aifs { align-items: flex-start; }
 
 /* padding */
-.p0 { padding: 0px; }
+.p0 { padding: 0; }
 .p2 { padding: calc(2 * var(--unit)); }
 .p4 { padding: calc(4 * var(--unit)); }
 .p6 { padding: calc(6 * var(--unit)); }
@@ -352,11 +352,11 @@ h1, h2, h3, h4 { color: dodgerblue; }
 blockquote{
   background: dodgerblue;
   color: white;
-  padding: 5px;
-  border-left: solid 5px springgreen;
-  border-radius: 3px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  padding: calc( 5 * var(--unit));
+  border-left: solid calc( 5* var(--unit)) springgreen;
+  border-radius: calc( 3 * var(--unit));
+  border-top-left-radius: calc( 8 * var(--unit));
+  border-bottom-left-radius: calc( 8 * var(--unit));
 }
 
 .hrdb {
@@ -404,7 +404,6 @@ li > a { font-size: calc(1.2 * 16 * var(--unit)); }
 table {
   border-collapse: collapse;
   margin: auto;
-  /* ❗ needs to be centered*/
 }
 
 th, td {
